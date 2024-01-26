@@ -246,7 +246,10 @@ html {
     font-variant-ligatures: common-ligatures;
     line-height: 1.67;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
 }
 
 blockquote,
